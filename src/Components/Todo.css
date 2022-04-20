@@ -1,0 +1,92 @@
+body {
+  background-color: #9b5de5;
+}
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 15px;
+}
+.todo-box {
+  background-color: #f15bb5;
+  border-radius: 20px;
+  padding: 50px 25px;
+  text-align: center;
+}
+.box-header {
+  font-size: 1.5rem;
+  color: #00bbf9;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+.box-body .input-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.box-body .input-box .input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  background-color: #4a4e69;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 20px 0 0 20px;
+}
+.box-body .input-box .btn{
+  padding: 20px 10px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #fee440;
+  color: #4a4e69;
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+}
+.list-item{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  margin: 10px 0;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.list-item .number{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.list-item .todo-item{
+  margin: 0 auto 0 20px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.list-item .icon-wrapper{
+  font-size: 1.7rem;
+}
+.list-item .icon-wrapper span{
+  margin: 0 5px;
+  cursor: pointer;
+}
+.list-item .icon-wrapper span:nth-child(1){
+  color: #00f5d4;
+}
+.list-item .icon-wrapper span:nth-child(2){
+  color: #00bbf9;
+}
+.list-item .icon-wrapper span:nth-child(3){
+  color: #f94144;
+}
+.t-undr{
+  text-decoration: line-through;
+}
